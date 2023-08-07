@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetics Home</title>
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.green.css">
+   
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white   py-4 fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+                <img src="images/shopping-bag-icon.png" alt="site icon">
+                <span class="text-uppercase fw-lighter ms-2">Cosmetics</span>
+            </a>
+
+            <div class="order-lg-2 nav-btns">
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-search"></i>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-heart"></i>
+                    <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+                </button>
+                <button type="button" class="btn position-relative">
+                    <i class="fa fa-user"></i>
+                </button>
+
+            </div>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#">MAKEUP</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#">SKIN CARE</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#">HAIR CARE</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#">TOOLS</a>
+                    </li>
+                    <li class="nav-item px-2 py-2">
+                        <a class="nav-link text-uppercase text-dark" href="#">BRANDS</a>
+                    </li>
+                    <li class="nav-item px-2 py-2 border-0">
+                        <a class="nav-link text-uppercase text-dark" href="aboutus.html">ABOUT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header id="header" class=" carousel slide" data-bs-ride="carousel" style="padding-top: 104px;">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#header" data-bs-slide-to="0" class="active" aria-current="true"
+                aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#header" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#header" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class=" carousel-item active c-item">
+                <img src="images/banner_img.jpg" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption d-none  d-md-block mt-auto">
+                    <h2 class="text-capitalize ">best collection</h2>
+                    <h1 class="text-uppercase py-2 fw-bold ">new arrivals</h1>
+                    <a href="#" class="btn mt-3 text-uppercase">shop now</a>
+                </div>
+
+
+            </div>
+            <div class=" carousel-item c-item">
+                <img src="images/banner_img1.jpg" class="d-block w-100 c-img" alt="...">
+                <div class="carousel-caption d-none d-md-block mt-auto">
+                    <h2 class="text-capitalize">best price & offer</h2>
+                    <h1 class="text-uppercase py-2 fw-bold">new season</h1>
+                    <a href="#" class="btn mt-3 text-uppercase">buy now</a>
+                </div>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#header" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon "></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#header" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </header>
+    <!-- end of header -->
+
+    <!-- <hr class="my-4 " style="background-color: #ff5151; height: 3px;"> -->
+
+    <!-- new product -->
+    <section id="new-products" class=" py-5 ">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">New Products</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-inner-box position-relative">
+
+                            <img src="images/new-products/new_product_1.jpg" alt="01" class="img-fluid">
+                            <div class="icons position-absolute">
+                                <a href="" class="text-decoration-none "><i class="fas fa-heart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-shopping-cart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info mb-4 mt-4">
+                            <div class="">
+                                <p class="fw-bold text-capitalize"> Fusce blandit leo nec nulla porttitor imperdiet eget
+                                    eu lectus</p>
+                            </div>
+                            <div>
+                                <span>Brand Name</span>
+                            </div>
+                            <div class="">
+                                <span>Rs</span>
+                                <span>375</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-inner-box position-relative">
+                            <img src="images/new-products/new_product_2.jpg" alt="01" class="img-fluid">
+                            <div class="icons position-absolute">
+                                <a href="" class="text-decoration-none "><i class="fas fa-heart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-shopping-cart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-info mt-4 mb-4">
+                        <div class="">
+                            <p class="fw-bold text-capitalize">Nulla congue porta consequat Lorem ipsum dolor sit
+                                amet</p>
+                        </div>
+                        <div>
+                            <span>Brand Name</span>
+                        </div>
+                        <div class="">
+                            <span>Rs</span>
+                            <span>375</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-inner-box position-relative">
+                            <img src="images/new-products/new_product_3.jpg" alt="01" class="img-fluid">
+                            <div class="icons position-absolute">
+                                <a href="" class="text-decoration-none"><i class="fas fa-heart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-shopping-cart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-info-circle"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-info mb-4 mt-4">
+                        <div class="">
+                            <p class="fw-bold text-capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit</p>
+                        </div>
+                        <div>
+                            <span>Brand Name</span>
+                        </div>
+                        <div class="">
+                            <span>Rs</span>
+                            <span>375</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-inner-box position-relative">
+                            <img src="images/new-products/new_product_4.jpg" alt="01" class="img-fluid">
+                            <div class="icons position-absolute">
+                                <a href="" class="text-decoration-none  "><i class="fas fa-heart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                                <a href="" class="text-decoration-none"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="" class="text-decoration-none"><i class="fas fa-info-circle"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-info mb-4 mt-4">
+                        <div class="">
+                            <p class="fw-bold text-capitalize">Vestibulum vel tincidunt enim, sit amet rhoncus
+                                augue. Donec vel </p>
+                        </div>
+                        <div>
+                            <span>Brand Name</span>
+                        </div>
+                        <div class="">
+                            <span>Rs</span>
+                            <span>375</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-inner-box position-relative">
+
+                            <img src="images/new-products/new_product_1.jpg" alt="01" class="img-fluid">
+                            <div class="icons position-absolute">
+                                <a href="" class="text-decoration-none "><i class="fas fa-shopping-cart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-heart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-info mb-4 mt-4">
+                            <div class="">
+                                <p class="fw-bold text-capitalize"> Fusce blandit leo nec nulla porttitor imperdiet eget
+                                    eu lectus</p>
+                            </div>
+                            <div>
+                                <span>Brand Name</span>
+                            </div>
+                            <div class="">
+                                <span>Rs</span>
+                                <span>375</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-inner-box position-relative">
+                            <img src="images/new-products/new_product_2.jpg" alt="01" class="img-fluid">
+                            <div class="icons position-absolute">
+                                <a href="" class="text-decoration-none "><i class="fas fa-heart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-shopping-cart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-info-circle"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="product-info mt-4 mb-4">
+                        <div class="">
+                            <p class="fw-bold text-capitalize">Nulla congue porta consequat Lorem ipsum dolor sit
+                                amet</p>
+                        </div>
+                        <div>
+                            <span>Brand Name</span>
+                        </div>
+                        <div class="">
+                            <span>Rs</span>
+                            <span>375</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-inner-box position-relative">
+                            <img src="images/new-products/new_product_3.jpg" alt="01" class="img-fluid">
+                            <div class="icons position-absolute">
+                                <a href="" class="text-decoration-none"><i class="fas fa-heart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-shopping-cart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-info-circle"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-info mb-4 mt-4">
+                        <div class="">
+                            <p class="fw-bold text-capitalize">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                elit</p>
+                        </div>
+                        <div>
+                            <span>Brand Name</span>
+                        </div>
+                        <div class="">
+                            <span>Rs</span>
+                            <span>375</span>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div class="product-box">
+                        <div class="product-inner-box position-relative">
+                            <img src="images/new-products/new_product_4.jpg" alt="01" class="img-fluid">
+                            <div class="icons position-absolute">
+                                <a href="" class="text-decoration-none  "><i class="fas fa-heart"></i></a>
+                                <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                                <a href="" class="text-decoration-none"><i class="fas fa-shopping-cart"></i></a>
+                                <a href="" class="text-decoration-none"><i class="fas fa-info-circle"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="product-info mb-4 mt-4">
+                        <div class="">
+                            <p class="fw-bold text-capitalize">Vestibulum vel tincidunt enim, sit amet rhoncus
+                                augue. Donec vel </p>
+                        </div>
+                        <div>
+                            <span>Brand Name</span>
+                        </div>
+                        <div class="">
+                            <span>Rs</span>
+                            <span>375</span>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="text-center mt-5 ">
+                <a href="#" class=" btn btn-primary ">View More</a>
+            </div>
+
+
+        </div>
+        </div>
+    </section>
+    <!-- end of new product -->
+    
+    <!-- <hr class="my-4 " style="background-color: #ff5151; height: 3px;"> -->
+
+    <!-- popular categories -->
+
+    <section id="popular-category" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Popular Categories</h2>
+            </div>
+            <div class="row gy-3 text-white">
+                <div class="col-md-4 ">
+                    <div class="card ">
+
+                        <img src="images/category_img_eye.jpg" class="pc-img" alt="images">
+
+
+                        <div class="card-body style-card">
+                            <p>EYE</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="images/category_img_skin.jpg" class=" pc-img" alt="images">
+                        <div class="card-body style-card">
+                            <p>SKIN</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="images/category_img_lips.jpg" class="pc-img" alt="images">
+                        <div class="card-body style-card">
+                            <p>LIPS</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="images/category_img_face.jpg" class=" pc-img" alt="images">
+                        <div class="card-body style-card">
+                            <p>FACE</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+                        <img src="images/category_img_brush.jpg" class=" pc-img" alt="images">
+                        <div class="card-body style-card">
+                            <p>BRUSH</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card ">
+
+                        <img src="images/category_img_hair.jpg" class="card-img-top pc-img" alt="images">
+                        <div class="card-body style-card">
+                            <p>HAIR</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- end of popular categories -->
+
+    <!-- <hr class="my-4 " style="background-color: #ff5151; height: 3px;"> -->
+    
+
+
+    <section id="special-products" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Special Products</h2>
+            </div>
+            <div class="owl-carousel owl-theme">
+               <div class="ms-2 me-2">
+                <div class="product-box">
+                    <div class=" product-inner-box special-img position-relative overflow-hidden">
+                        <img src="images/Offers/offers_img_1.jpg" class="w-100">
+                        <div class="icons position-absolute">
+                            <a href="" class="text-decoration-none  "><i class="fas fa-heart"></i></a>
+                            <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                            <a href="" class="text-decoration-none"><i
+                                    class="fas fa-shopping-cart"></i></a>
+                            <a href="" class="text-decoration-none"><i
+                                    class="fas fa-info-circle"></i></a>
+                        </div>
+                        <span
+                            class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">
+                            sale
+                        </span>
+                    </div>
+
+                    <div>
+                        <p class="text-capitalize mt-3 mb-1 fw-bolder">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipiscing</p>
+                        <span> Venus</span>
+                        <div class="d-block position-relative">
+                            <span class="text-decoration-line-through text-danger">RS 450</span>
+                            <span class="mx-2">Rs 299</span>
+                        </div>
+
+                    </div>
+                </div>
+               </div>
+               <div class="ms-2 me-2">
+                <div class="product-box">
+                    <div class=" product-inner-box special-img position-relative overflow-hidden">
+                        <img src="images/Offers/offers_img_2.jpg" class="w-100">
+                        <div class="icons position-absolute">
+                            <a href="" class="text-decoration-none  "><i class="fas fa-heart"></i></a>
+                            <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                            <a href="" class="text-decoration-none"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="" class="text-decoration-none"><i class="fas fa-info-circle"></i></a>
+                        </div>
+                        <span
+                            class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">
+                            sale
+                        </span>
+                    </div>
+                    <div class="">
+                        <p class="text-capitalize mt-3 mb-1 fw-bolder">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing</p>
+                        <p class="text-capitalize">the Ordinary</p>
+
+                        <div class="d-block position-relative">
+                            <span class="text-decoration-line-through text-danger">RS 450</span>
+                            <span class="mx-2">Rs 299</span>
+                        </div>
+
+                    </div>
+                </div>
+               </div>
+               <div class="ms-2 me-2">
+                <div class="product-box">
+                    <div class=" product-inner-box special-img position-relative overflow-hidden">
+                        <img src="images/Offers/offers_img_3.jpg" class="w-100">
+                        <div class="icons position-absolute">
+                            <a href="" class="text-decoration-none  "><i class="fas fa-heart"></i></a>
+                            <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                            <a href="" class="text-decoration-none"><i
+                                    class="fas fa-shopping-cart"></i></a>
+                            <a href="" class="text-decoration-none"><i
+                                    class="fas fa-info-circle"></i></a>
+                        </div>
+                        <span
+                            class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">
+                            sale
+                        </span>
+                    </div>
+                    <div class="">
+                        <p class="text-capitalize mt-3 mb-1 fw-bolder">Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipiscing</p>
+                            <span> Botanics</span>
+
+                        <div class="d-block position-relative">
+                            <span class="text-decoration-line-through text-danger">RS 450</span>
+                            <span class="mx-2">Rs 299</span>
+                        </div>
+
+                    </div>
+                </div>
+               </div>
+               <div class="ms-2 me-2">
+                <div class="product-box">
+                    <div class="product-inner-box special-img position-relative overflow-hidden">
+                        <img src="images/Offers/offers_img_4.jpg" class="w-100">
+                        <div class="icons position-absolute">
+                            <a href="" class="text-decoration-none  "><i class="fas fa-heart"></i></a>
+                            <a href="" class="text-decoration-none "><i class="fas fa-eye"></i></a>
+                            <a href="" class="text-decoration-none"><i class="fas fa-shopping-cart"></i></a>
+                            <a href="" class="text-decoration-none"><i class="fas fa-info-circle"></i></a>
+                        </div>
+                        <span
+                            class="position-absolute bg-primary text-white d-flex align-items-center justify-content-center">
+                            sale
+                        </span>
+                    </div>
+                    <div class="">
+                        <p class="text-capitalize mt-3 mb-1 fw-bolder">Lorem ipsum dolor sit amet, consectetur
+                            adipiscing</p>
+                        <p class="text-capitalize">Venus</p>
+                        <div class="d-block position-relative">
+                            <span class="text-decoration-line-through text-danger">RS 450</span>
+                            <span class="mx-2">Rs 299</span>
+                        </div>
+
+                    </div>
+                </div>
+               </div>
+               
+
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- <hr class="my-4 " style="background-color: #ff5151; height: 3px;"> -->
+
+    
+
+    <!-- end of special products -->
+
+    <!-- blogs -->
+    <section id="blogs" class="py-5">
+        <div class="container">
+            <div class="title text-center py-5">
+                <h2 class="position-relative d-inline-block">Our Latest Blog</h2>
+            </div>
+
+            <div class="row g-3">
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="images/blog_1.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia
+                            itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="fw-bold">Author: </span>Name
+                            </small>
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="images/blog_2.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia
+                            itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="fw-bold">Author: </span>Name
+                            </small>
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card border-0 col-md-6 col-lg-4 bg-transparent my-3">
+                    <img src="images/blog_3.jpg" alt="">
+                    <div class="card-body px-0">
+                        <h4 class="card-title">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                        <p class="card-text mt-3 text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Eveniet aspernatur repudiandae nostrum dolorem molestias odio. Sit fugit adipisci omnis quia
+                            itaque ratione iusto sapiente reiciendis, numquam officiis aliquid ipsam fuga.</p>
+                        <p class="card-text">
+                            <small class="text-muted">
+                                <span class="fw-bold">Author: </span>Name
+                            </small>
+                        </p>
+                        <a href="#" class="btn">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of blogs -->
+
+   
+
+   
+
+    <!-- footer -->
+    <footer class="bg-dark py-5">
+        <div class="container">
+            <div class="row text-white g-4">
+                <div class="col-md-6 col-lg-3">
+                    <a class="text-uppercase text-decoration-none brand text-white" href="index.html">Cosmetics</a>
+                    <p class="text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light">Links</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#header" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#new-products" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> New Product
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#popular-category" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Popular Category
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#special-products" class="text-white text-decoration-none text-muted">
+                                <i class="fas fa-chevron-right me-1"></i> Special Product
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Contact Us</h5>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            Jalpa Chowk, Tokha 08, Kathmandu, Nepal
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <span class="fw-light">
+                            cosmetics.support@gmail.com
+                        </span>
+                    </div>
+                    <div class="d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class="me-3">
+                            <i class="fas fa-phone-alt"></i>
+                        </span>
+                        <span class="fw-light">
+                            9780451519
+                        </span>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h5 class="fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class="list-unstyled d-flex">
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class="fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+
+
+    <!-- jquery -->
+    <script src="js/jquery.min.js"></script>
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js "></script>
+    <!-- isotope js -->
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- bootstrap js -->
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+   
+</body>
+
+</html>
